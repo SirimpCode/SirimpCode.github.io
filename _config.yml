@@ -20,7 +20,9 @@ title: "Sirimp's 개발 블로그" # the main title
 tagline: 　Backend<br>　　　Development<br>　　　　　Journey # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Sirimp의 백엔드 개발 이야기: Spring Boot, Java, DB 최적화, 그리고 삽질 기록까지!
+  백엔드 개발을 위한 Java & Spring Boot 블로그.
+  REST API, JPA, Spring Security, 데이터베이스 설계, 트랜잭션 관리, MySQL, Oracle, Redis, QueryDSL, OAuth 등을 다룹니다.
+  실무 경험 기반으로 스프링부트 프로젝트 개발 및 아키텍처 설계를 설명합니다.
 
 
 # Fill in the protocol & hostname for your site.
@@ -90,7 +92,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -107,7 +109,7 @@ avatar:
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+toc: true #글 오른쪽의 목차
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
