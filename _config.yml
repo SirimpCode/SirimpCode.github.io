@@ -16,8 +16,8 @@ timezone: Asia/Seoul
 
 title: "Sirimp's 개발 블로그" # the main title
 
-
-tagline: 　Backend<br>　　　Development<br>　　　　　Journey # it will display as the subtitle
+#tagline: 　Backend<br>　　　Development<br>　　　　　Journey # it will display as the subtitle
+tagline: 트렌드 분석 습관<br>　　 　함께 성장하는 팀워크<br><p class="sihu-tag">강박적 클린 코드 작성과 리팩토링</p> # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   백엔드 개발을 위한 Java & Spring Boot 블로그.

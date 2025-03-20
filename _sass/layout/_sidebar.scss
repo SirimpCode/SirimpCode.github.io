@@ -119,6 +119,19 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     -ms-user-select: none;
     user-select: none;
   }
+  .sihu-tag {
+    font-size: 82%;
+    color: var(--site-subtitle-color);
+    margin-top: 0.55rem;
+    word-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-style: italic;  /* 기울임 효과 */
+    font-weight: bold;   /* 두껍게 효과 */
+    opacity: 0.9;
+  }
 
   ul {
     margin-bottom: 2rem;
@@ -178,6 +191,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
+
+    //가운데정렬
+
+    display: flex; // Flexbox 적용
+    justify-content: center; // 가로 중앙 정렬
+    align-items: center; // 세로 중앙 정렬
+    gap: 0.7rem; // 버튼 사이 간격 조정
+    margin-right: 10px;
 
     @include bp.xxxl {
       padding-left: 2.75rem;
