@@ -1,8 +1,8 @@
 ---
-title: "자바의 문자열 활용 - String.class의 메서드"
+title: "StringBuilder와 StringBuffer"
 date: 2025-04-02 16:52:21 +0900
 categories: [Java, Basic]
-tags: [Eclipse, Java, 기초, 문자열, String, StringBuilder]
+tags: [Eclipse, Java, 기초, 문자열, String, StringBuilder, StringBuffer]
 math: true
 toc: true # 패널 목차
 #만약 너가 이 기능을 끄고싶다면 _config.yml파일로가서 toc값을 false로 바꾸어주면된다. 
