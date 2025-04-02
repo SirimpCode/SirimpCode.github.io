@@ -225,4 +225,3 @@ public class forMain {
 >     System.out.println("최소 한 번 실행됨");
 > } while (num < 5);
 > ```
-{: .prompt-tip}
